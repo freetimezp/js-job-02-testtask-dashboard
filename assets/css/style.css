@@ -1,5 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* main start */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    height: 1198px;
+    background-color: #FAFBFF;
+}
+
+/* main end */
+
+
+/* dashboard start */
+.dash__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.dash__sidebar {
+    width: 306px;
+    box-shadow: 0px 10px 60px 0px #E2ECF980;
+    height: 100%;
+    color: #fff;
+    padding: 36px 0 0 28px;
+    position: relative;
+}
+
+.dash__sidebar-logo {
+    padding: 3px 0 3px 3px;
+    width: 195px;
+    height: 39px;
+}
+
+.dash__sidebar-logo__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash__sidebar-logo__img {
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+}
+
+.dash__sidebar-logo__title {
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    position: relative;
+}
+
+.dash__sidebar-logo__version {
+    position: absolute;
+    font-size: 10px;
+    color: #838383;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    bottom: 6px;
+    right: -22px;
+}
+
+.dash__sidebar-menu {
+    margin-top: 53px;
+}
+
+.dash__sidebar-menu__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash__sidebar-menu__item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 250px;
+    height: 46px;
+}
+
+.dash__sidebar-menu__link {
+    display: flex;
+    align-items: center;
+    padding: 11px 9.5px;
+    width: 250px;
+    height: 46px;
+    border-radius: 8px;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.dash__sidebar-menu__item:hover, 
+.dash__sidebar-menu__item.active {
+    background-color: #5932EA;
+    transition: all .5s ease-in-out;
+}
+
+.dash__sidebar-menu__item:hover .dash__sidebar-menu__text,
+.dash__sidebar-menu__item.active .dash__sidebar-menu__text {
+    color: #fff;
+}
+
+.dash__sidebar-menu__item .dash__sidebar-menu__link  {
+    color: #9197B3;
+    transition: all .5s ease-in-out;
+}
+
+.dash__sidebar-menu__item .dash__sidebar-menu__arrow {
+    stroke: #9197B3;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.dash__sidebar-menu__item:hover .dash__sidebar-menu__arrow,
+.dash__sidebar-menu__item.active .dash__sidebar-menu__arrow {
+    stroke: #fff;
+}
+
+.dash__sidebar-menu__item:hover .dash__sidebar-menu__icon,
+.dash__sidebar-menu__item.active .dash__sidebar-menu__icon {
+    color: #fff;
+}
+
+.dash__sidebar-menu__icon {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    margin-right: 14px;
+    transition: all .3s ease-in-out;
+}
+
+.dash__sidebar-menu__text {
+    font-size: 14px;
+    color: #9197B3;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    transition: all .3s ease-in-out;
+}
+
+.dash__sidebar-menu__arrow {
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+}
+
+.dash__user-1 {
+    position: absolute;
+    bottom: 76px;
+    left: 28px;
+    width: 155px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash__user-1 .dash__user-img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+
+.dash__user-1 .dash__user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash__user-1 .dash__user-title {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.dash__user-1 .dash__user-text {
+    font-size: 12px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+/* dashboard end */
+

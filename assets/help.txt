@@ -1,0 +1,3 @@
+/* link to project in figma */
+https://www.figma.com/file/3jPRRdGbHJbOT9P61KxT2y/CRM-Dashboard-Customers?type=design&node-id=501-2&mode=design&t=kT5rQYIlPneFwgCM-0
+
