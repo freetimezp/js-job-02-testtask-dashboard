@@ -351,6 +351,14 @@ table.dash__content-table
     padding: 20px 0;
 }
 
+.dash__content-table tr th:last-child {
+    text-align: center;
+}
+
+.dash__content-table tr td:last-child {
+    text-align: center;
+}
+
 .dash__content-table tr td button {
     width: 80px;
     height: 29px;
@@ -366,6 +374,7 @@ table.dash__content-table
     background-color: #FFC5C5;
     color: #DF0404;
     font-family: Poppins; 
+    cursor: pointer;
 }
 
 .dash__content-table tr td button.active {
@@ -379,7 +388,7 @@ table.dash__content-table
     justify-content: space-between;
     align-items: center;
     max-width: 886px;
-    padding: 0px 68px 0 0;
+    padding: 0px 52px 0 0;
     margin-top: 32px;
 }
 
