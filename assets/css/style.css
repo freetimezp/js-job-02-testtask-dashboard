@@ -224,5 +224,239 @@ a {
     text-align: left;
 }
 
+.dash__main {
+    padding: 41px 95px 41px 71px;
+}
+
+.dash__user-2 {
+    width: 176px;
+    height: 36px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dash__content {
+    padding: 30px 38px; 
+    margin-top: 51px;
+    box-shadow: 0px 10px 60px 0px #E2ECF980;
+    background-color: #fff;
+    width: 968px;
+}
+
+.dash__content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dash__content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash__content-text__title {
+    width: 155px;
+    height: 33px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.dash__content-text__desc {
+    margin-top: 7px;
+    width: 111px;
+    height: 21px;
+    color: #16C098;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.dash__content-search {
+    width: 216px;
+    height: 38px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dash__content-search input {
+    width: 100%;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background-color: #F9FBFF;
+}
+
+.dash__content-search input::placeholder {
+    font-size: 12px;
+    color: #B5B7C0;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.dash__content-search svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+}
+
+table.dash__content-table
+{
+  border-collapse: collapse;
+}
+
+.dash__content-table {
+    width: 100%;
+    max-width: 886px;
+    margin-top: 40px;
+}
+
+.dash__content-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.dash__content-table tr th {
+    font-size: 14px;
+    color: #B5B7C0;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding: 7px 0;
+}
+
+.dash__content-table tr td {
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.dash__content-table tr td button {
+    width: 80px;
+    height: 29px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid #DF0404;
+    background-color: #FFC5C5;
+    color: #DF0404;
+    font-family: Poppins; 
+}
+
+.dash__content-table tr td button.active {
+    border: 1px solid #00B087;
+    color: #00B087;
+    background-color: rgba(22, 192, 152, 0.38);
+}
+
+.dash__content-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 886px;
+    padding: 0px 68px 0 0;
+    margin-top: 32px;
+}
+
+.dash__content-bottom .dash__content-bottom_data {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #B5B7C0;
+}
+
+.dash__content-bottom__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.dash__content-bottom__pagination li {
+    width: 25px;
+    height: 24px;
+    padding: 6px 9px 6px 9px;  
+    border: 1px solid #EEEEEE; 
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.dash__content-bottom__pagination  li  a {
+    color: #404B52;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+}
+
+.dash__content-bottom__pagination  li.next,
+.dash__content-bottom__pagination  li.prev {
+    position: absolute;
+    color: #404B52;
+    top: 0;
+    width: 26px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.dash__content-bottom__pagination li.empty a {
+    color: #000;
+}
+
+.dash__content-bottom__pagination li:hover,
+.dash__content-bottom__pagination li.active {
+    background-color: #5932EA;
+}
+
+.dash__content-bottom__pagination li:hover a,
+.dash__content-bottom__pagination li.active a {
+    color: #fff;
+}
+
+.dash__content-bottom__pagination  li.prev {
+    left: -37px;
+}
+
+.dash__content-bottom__pagination  li.next {
+    right: -37px;
+}
+
+
 /* dashboard end */
 
